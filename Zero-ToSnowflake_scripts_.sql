@@ -103,7 +103,7 @@ create table trips_dev clone trips;
 create database weather;
 
 -- Set Worksheet Context
-use role sysadmin;
+-- use role sysadmin;
 use warehouse compute_wh;
 use database weather;
 use schema public;
@@ -174,7 +174,7 @@ undrop table json_weather_data;
 select * from json_weather_data_view limit 10;
 
 --Set the Worksheet Context
-use role sysadmin;
+--use role sysadmin;
 use warehouse compute_wh;
 use database citibike;
 use schema public;
