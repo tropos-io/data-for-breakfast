@@ -27,7 +27,7 @@ create or replace table trips (
 
 --create a stage called citibike_trips in an external aws bucket
 create stage citibike_trips
-    url = 's3://snowflake-workshop-lab/citibike-trips/';
+    url = 's3://snowflake-workshop-lab/citibike-trips/trips';
     --credentials = (aws_secret_key = '<key>' aws_key_id = '<id>');
 
 -- take a look at the contents of the citibike_trips stage
